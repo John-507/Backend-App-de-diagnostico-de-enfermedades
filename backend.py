@@ -1,5 +1,8 @@
 import json
 from experta import Fact, KnowledgeEngine, Rule, MATCH 
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
 
 # Cargar los datos de síntomas y enfermedades desde los archivos JSON
 with open('sintomas.json', 'r') as file:
@@ -38,3 +41,23 @@ class Diagnostico(KnowledgeEngine):
             "descripcion": info['descripcion'],
             "precauciones": info['precauciones']
         }
+    
+@app.route('/diagnosticar', methods=['POST'])
+def diagnosticar():
+    data = request.json
+    sintomas_usuario = data['sintomas']
+
+    # Crear una instancia del motor de conocimiento
+    engine = Diagnostico()
+
+    # Declarar los síntomas seleccionados por el usuario
+    engine.reset()
+    for sintoma_nombre in sintomas_usuario:
+        engine.declare(Sintoma(nombre=sintoma_nombre))
+
+    # Ejecutar el motor de conocimiento
+    engine.run()
+    resultado = engine.finalizar_diagnostico()
+
+    # Enviar la respuesta en formato JSON
+    return jsonify(resultado)
