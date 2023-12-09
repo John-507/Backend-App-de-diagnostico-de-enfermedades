@@ -1,0 +1,74 @@
+{
+  "enfermedades": [
+    {
+      "id": 1,
+      "nombre": "Resfriado común",
+      "sintomas": [1, 2, 3, 4, 5],
+      "descripcion": "Infección viral leve que afecta las vías respiratorias superiores.",
+      "precauciones": "Descansa, bebe líquidos y evita el contacto cercano con otras personas."
+    },
+    {
+      "id": 2,
+      "nombre": "Gripe",
+      "sintomas": [1, 2, 5, 6, 7, 8, 9, 10, 11],
+      "descripcion": "Enfermedad respiratoria contagiosa causada por virus de la gripe.",
+      "precauciones": "Descansa, bebe líquidos, y toma medicamentos para aliviar los síntomas."
+    },
+    {
+      "id": 3,
+      "nombre": "COVID-19",
+      "sintomas": [1, 2, 5, 6, 8, 9, 10, 11, 12, 13, 14],
+      "descripcion": "Enfermedad causada por el virus SARS-CoV-2.",
+      "precauciones": "Aíslate, sigue las pautas de salud pública y busca atención médica si es necesario."
+    },
+    {
+      "id": 4,
+      "nombre": "Alergias",
+      "sintomas": [3, 4, 5, 15],
+      "descripcion": "Respuesta exagerada del sistema inmunológico a sustancias inofensivas.",
+      "precauciones": "Identifica y evita los alérgenos, y toma antihistamínicos según sea necesario."
+    },
+    {
+      "id": 5,
+      "nombre": "Migraña",
+      "sintomas": [5, 16],
+      "descripcion": "Tipo de dolor de cabeza que puede ir acompañado de síntomas adicionales.",
+      "precauciones": "Descansa en un lugar oscuro y tranquilo, y toma medicamentos recetados si es necesario."
+    },
+    {
+      "id": 6,
+      "nombre": "Problemas respiratorios",
+      "sintomas": [8, 17],
+      "descripcion": "Dificultades en la función respiratoria que pueden deberse a varias causas.",
+      "precauciones": "Consulta a un médico para un diagnóstico preciso y sigue el plan de tratamiento recomendado."
+    },
+    {
+      "id": 7,
+      "nombre": "Problemas gastrointestinales",
+      "sintomas": [9, 10, 11],
+      "descripcion": "Trastornos que afectan el sistema digestivo.",
+      "precauciones": "Come alimentos fáciles de digerir y bebe líquidos para evitar la deshidratación."
+    },
+    {
+      "id": 8,
+      "nombre": "Problemas dermatológicos",
+      "sintomas": [15],
+      "descripcion": "Condiciones que afectan la piel, cabello y uñas.",
+      "precauciones": "Mantén una buena higiene y sigue las indicaciones del dermatólogo para el cuidado de la piel."
+    },
+    {
+      "id": 9,
+      "nombre": "Problemas cardíacos",
+      "sintomas": [5, 17],
+      "descripcion": "Enfermedades que afectan el corazón y los vasos sanguíneos.",
+      "precauciones": "Adopta un estilo de vida saludable, incluyendo ejercicio regular y una dieta equilibrada."
+    },
+    {
+      "id": 10,
+      "nombre": "Trastornos del sueño",
+      "sintomas": [18, 19, 20],
+      "descripcion": "Problemas que afectan la duración y calidad del sueño.",
+      "precauciones": "Establece una rutina de sueño, crea un ambiente propicio para dormir y limita la cafeína antes de acostarte."
+    }
+  ]
+}

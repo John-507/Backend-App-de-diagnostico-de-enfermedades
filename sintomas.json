@@ -1,0 +1,24 @@
+{
+  "sintomas": [
+    {"id": 1, "nombre": "Fiebre"},
+    {"id": 2, "nombre": "Tos"},
+    {"id": 3, "nombre": "Dolor de garganta"},
+    {"id": 4, "nombre": "Congestión nasal"},
+    {"id": 5, "nombre": "Dolor de cabeza"},
+    {"id": 6, "nombre": "Fatiga"},
+    {"id": 7, "nombre": "Dolor muscular"},
+    {"id": 8, "nombre": "Dificultad para respirar"},
+    {"id": 9, "nombre": "Náuseas"},
+    {"id": 10, "nombre": "Vómitos"},
+    {"id": 11, "nombre": "Diarrea"},
+    {"id": 12, "nombre": "Escalofríos"},
+    {"id": 13, "nombre": "Pérdida del gusto"},
+    {"id": 14, "nombre": "Pérdida del olfato"},
+    {"id": 15, "nombre": "Erupción cutánea"},
+    {"id": 16, "nombre": "Mareos"},
+    {"id": 17, "nombre": "Dolor en el pecho"},
+    {"id": 18, "nombre": "Sudoración excesiva"},
+    {"id": 19, "nombre": "Pérdida de apetito"},
+    {"id": 20, "nombre": "Insomnio"}
+  ]
+}
