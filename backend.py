@@ -62,5 +62,11 @@ def diagnosticar():
     # Enviar la respuesta en formato JSON
     return jsonify(resultado)
 
+@app.route('/sintomas', methods=['GET'])
+def obtener_sintomas():
+    # Devuelve la lista de síntomas
+    return jsonify(sintomas_data['sintomas'])
+
 if __name__ == '__main__':
     app.run(debug=True)
+
