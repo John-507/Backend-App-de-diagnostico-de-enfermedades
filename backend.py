@@ -1,8 +1,10 @@
 import json
 from experta import Fact, KnowledgeEngine, Rule, MATCH 
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Cargar los datos de síntomas y enfermedades desde los archivos JSON
 with open('sintomas.json', 'r') as file:
